@@ -1,0 +1,142 @@
+.location {
+    background-color: #e9e9e3;
+    display: flex;
+    /* place-items: center; */
+    flex-direction: column;
+}
+
+.location__add__container {
+    box-shadow: -1px 4px 20px -6px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    /* flex: 0.33; */
+    width: 95vw;
+    height: 200vh;
+    background-color: rgb(250, 250, 250);
+    align-items: center;
+    /* margin: 15px; */
+    overflow: scroll;
+}
+
+.location__add {
+    display: flex;
+    flex-direction: column;
+    /* flex: 1; */
+    /* margin: 150px;  */
+}
+
+
+
+.location__update__container {
+    box-shadow: -1px 4px 20px -6px rgba(0, 0, 0, 0.3);
+    display: flex;
+    /* flex: 0.33; */
+    flex-direction: column;
+
+    width: 95vw;
+    height: 180vh;
+    background-color: rgb(250, 250, 250);
+    align-items: center;
+    margin: 15px;
+    overflow: scroll;
+}
+
+.location__update {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin: 150px;
+}
+
+.location__delete__container {
+    box-shadow: -1px 4px 20px -6px rgba(0, 0, 0, 0.3);
+    display: flex;
+    /* flex: 0.33; */
+    width: 95vw;
+    height: 100vh;
+    background-color: rgb(250, 250, 250);
+    align-items: center;
+    margin: 15px;
+}
+
+.location__delete {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin: 150px;
+}
+
+
+
+
+.location__form > p {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: xx-large;
+}
+
+.location__form > input {
+    border: none;
+    border-bottom: 2px solid black;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    outline-width:0;
+}
+
+.location__form > button {
+    margin: 20px;
+    border-radius: 20px;
+    font-size: xx-large;
+    background-color: white;
+    color: black;
+    /* width: fit-content; */
+}
+
+.location__form > button:hover {
+    background-color: green;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+.location__form1 > p {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: small;
+}
+
+.location__form1 > input {
+    border: none;
+    border-bottom: 2px solid black;
+    width: 100%;
+    /* padding: 12px 20px;
+    margin: 8px 0; */
+    box-sizing: border-box;
+    outline-width:0;
+}
+
+.location__form1 > button {
+    /* margin: 20px; */
+    border-radius: 20px;
+    font-size: small;
+    background-color: white;
+    color: black;
+    /* width: fit-content; */
+}
+
+.location__form1 > button:hover {
+    background-color: green;
+    color: white;
+}
